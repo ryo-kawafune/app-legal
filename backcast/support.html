@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Backcast サポート</title>
+<style>
+  :root { color-scheme: light dark; --ink:#111; --ink2:#555; --bg:#fff; --line:#e5e5e5; --accent:#0a63c9; --panel:#f6f7f9; --warn:#b3261e; }
+  @media (prefers-color-scheme: dark) { :root { --ink:#eee; --ink2:#aaa; --bg:#141414; --line:#2c2c2c; --accent:#6aa9f0; --panel:#1e1e1e; --warn:#f2836f; } }
+  body { margin:0; background:var(--bg); color:var(--ink);
+         font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP",sans-serif; line-height:1.9; }
+  main { max-width:760px; margin:0 auto; padding:48px 20px 96px; }
+  h1 { font-size:28px; margin:0 0 4px; }
+  h2 { font-size:19px; margin:40px 0 10px; padding-top:18px; border-top:1px solid var(--line); }
+  h3 { font-size:16px; margin:24px 0 6px; }
+  .meta { color:var(--ink2); font-size:14px; margin:0 0 28px; }
+  .panel { background:var(--panel); border-radius:12px; padding:16px 20px; margin:16px 0; }
+  .warn { color:var(--warn); font-weight:700; }
+  a { color:var(--accent); }
+  ul { padding-left:1.2em; } li { margin:6px 0; }
+  footer { margin-top:56px; padding-top:20px; border-top:1px solid var(--line); color:var(--ink2); font-size:13px; }
+</style>
+</head>
+<body>
+<main>
+<h1>Backcast サポート</h1>
+<p class="meta">目標から逆算して、今日やることを決めるアプリ</p>
+
+<div class="panel">
+  <p>ご質問・不具合のご報告は <a href="mailto:ryo53061@gmail.com">ryo53061@gmail.com</a> までお送りください。<br>
+  端末の機種と iOS のバージョン、起きたことを書き添えていただけると解決が早くなります。</p>
+</div>
+
+<h2>よくある質問</h2>
+
+<h3>データはどこに保存されますか？</h3>
+<p>お使いの iPhone の中だけです。サーバーには一切送信されません。詳しくは<a href="./privacy.html">プライバシーポリシー</a>をご覧ください。</p>
+
+<h3>機種変更するときはどうすればいいですか？</h3>
+<p>「その他 → データ → CSV を書き出す」で控えを取ってから移行してください。データは端末内にのみ保存されるため、アプリを削除すると復元できません。</p>
+
+<h3>歩数や体重が反映されません</h3>
+<p>「設定 → プライバシーとセキュリティ → ヘルスケア → Backcast」で、歩数と体重の読み取りが許可されているかご確認ください。許可がなくても手入力でご利用いただけます。</p>
+
+<h3>到達予定日が「幅」で表示されるのはなぜですか？</h3>
+<p>筋力の伸び方には大きな個人差があり、研究では12週間で 0〜+250% の幅が報告されています（Hubal 2005）。単一の日付を約束できないため、速い側・中央・遅い側の3点で表示しています。記録が溜まるほど幅は狭くなります。</p>
+
+<h3>体重が増えた日があります。計画は失敗ですか？</h3>
+<p>体重は水分・塩分・便通で1日 ±1.5kg 動きます。アプリは常に7日間の移動平均で判定しているので、1日の増減は気にしないでください。</p>
+
+<h3>目標どうしが両立しないと表示されました</h3>
+<p>減量の赤字が大きいと筋力は伸びにくくなります。アプリは「減量を先に終わらせ、筋力はそのあと」という順番を提案します。筋力目標の期限を体重目標より後ろに置くと、到達日がその前提で計算し直されます。</p>
+
+<h2 class="warn">安全に関する重要なお願い</h2>
+<p>Backcast は医療機器ではなく、診断・治療・予防を目的としたものではありません。持病のある方、服薬中の方、妊娠中の方、摂食障害の既往がある方は、必ず医師にご相談のうえご利用ください。薬の用量や中止の判断は、すべて処方医の指示に従ってください。</p>
+<p>トレーニング中に強い痛み・めまい・吐き気が出た場合は、直ちに中止してください。</p>
+
+<footer>
+  © 2026 RIVERSHIP / Ryo Kawafune — <a href="./privacy.html">プライバシーポリシー・利用規約</a> ／ <a href="../">法的情報の一覧</a>
+</footer>
+</main>
+</body>
+</html>
