@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Backcast プライバシーポリシー・利用規約</title>
+<style>
+  :root { color-scheme: light dark; --ink:#111; --ink2:#555; --bg:#fff; --line:#e5e5e5; --accent:#0a63c9; --warn:#b3261e; --panel:#f6f7f9; }
+  @media (prefers-color-scheme: dark) { :root { --ink:#eee; --ink2:#aaa; --bg:#141414; --line:#2c2c2c; --accent:#6aa9f0; --warn:#f2836f; --panel:#1e1e1e; } }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink);
+         font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP",sans-serif;
+         line-height:1.9; }
+  main { max-width:760px; margin:0 auto; padding:48px 20px 96px; }
+  h1 { font-size:28px; margin:0 0 4px; letter-spacing:-.01em; }
+  h2 { font-size:19px; margin:44px 0 12px; padding-top:20px; border-top:1px solid var(--line); }
+  h3 { font-size:16px; margin:28px 0 8px; }
+  .meta { color:var(--ink2); font-size:14px; margin:0 0 28px; }
+  .lede { background:var(--panel); border-radius:12px; padding:18px 20px; margin:0 0 8px; }
+  .lede strong { font-size:17px; }
+  ul { padding-left:1.2em; }
+  li { margin:6px 0; }
+  table { width:100%; border-collapse:collapse; margin:16px 0; font-size:15px; display:block; overflow-x:auto; }
+  th, td { border:1px solid var(--line); padding:9px 12px; text-align:left; vertical-align:top; }
+  th { background:var(--panel); font-weight:600; white-space:nowrap; }
+  .warn { color:var(--warn); font-weight:700; }
+  a { color:var(--accent); }
+  ol { padding-left:1.3em; }
+  footer { margin-top:56px; padding-top:20px; border-top:1px solid var(--line); color:var(--ink2); font-size:13px; }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Backcast プライバシーポリシー</h1>
+<p class="meta">最終更新日: 2026年9月6日</p>
+
+<div class="lede">
+  <p><strong>Backcast は、あなたの記録を外部に送信しません。</strong></p>
+  <p>体重・食事・トレーニング・目標・プロフィールを含むすべての記録は、<strong>あなたの iPhone の中だけに保存されます</strong>。開発者を含め、他の誰も読むことができません。</p>
+  <ul>
+    <li>サーバーはありません。</li>
+    <li>アカウント登録はありません。</li>
+    <li>解析ツール・広告SDK・クラッシュレポートSDKを一切組み込んでいません。</li>
+  </ul>
+</div>
+
+<h2>1. アプリが扱う情報</h2>
+<table>
+  <thead><tr><th>情報</th><th>用途</th><th>保存先</th><th>外部送信</th></tr></thead>
+  <tbody>
+    <tr><td>身長・年齢・性別・体脂肪率</td><td>基礎代謝と目標達成日の計算</td><td>端末内</td><td><strong>なし</strong></td></tr>
+    <tr><td>体重・歩数</td><td>進捗の判定（7日移動平均）</td><td>端末内</td><td><strong>なし</strong></td></tr>
+    <tr><td>食事の記録</td><td>摂取カロリーとタンパク質の集計</td><td>端末内</td><td><strong>なし</strong></td></tr>
+    <tr><td>トレーニングの記録</td><td>負荷の進め方と、筋力低下の検知</td><td>端末内</td><td><strong>なし</strong></td></tr>
+    <tr><td>目標と期限</td><td>達成日の逆算・目標どうしの衝突検出</td><td>端末内</td><td><strong>なし</strong></td></tr>
+  </tbody>
+</table>
+<p>保存先は、アプリ専用の領域にある1つのファイルです。<strong>アプリを削除すると、この記録も同時に消えます</strong>（復元はできません）。必要な場合は、アプリ内の「その他 → データ → CSV を書き出す」でご自身の手元に控えを取ってください。</p>
+
+<h2>2. ヘルスケア（HealthKit）との連携</h2>
+<p>あなたが許可した場合にのみ、以下を読み書きします。</p>
+<ul>
+  <li><strong>読み取り</strong>: 歩数、体重</li>
+  <li><strong>書き込み</strong>: 体重（アプリで入力した値をヘルスケアにも残すため）</li>
+</ul>
+<p class="warn">HealthKit から読み取ったデータを、広告・マーケティングの目的で使うことはありません。また、いかなる第三者にも提供しません。</p>
+<p>（Apple の HealthKit ガイドラインに従います。）</p>
+<p>許可はいつでも「設定 → プライバシーとセキュリティ → ヘルスケア → Backcast」から取り消せます。取り消しても、アプリはこれまでどおり手入力で使えます。</p>
+
+<h2>3. 通知</h2>
+<p>リマインダーは<strong>端末内のローカル通知</strong>です。通知の内容・送信の事実が外部に出ることはありません。通知は「設定 → 通知 → Backcast」からいつでも止められます。</p>
+
+<h2>4. 子どもの利用について</h2>
+<p>13歳未満の方を対象としたアプリではありません。また、減量に関する情報を扱うため、<strong>未成年の方は保護者と相談のうえでご利用ください</strong>。</p>
+
+<h2>5. 医療上の位置づけ</h2>
+<p class="warn">Backcast は医療機器ではなく、診断・治療・予防を目的としたものではありません。</p>
+<p>表示される数値は、公開されている研究に基づく<strong>推定</strong>です。持病がある方、服薬中の方、妊娠中の方、摂食障害の既往がある方は、<strong>利用の前に必ず医師にご相談ください</strong>。GLP-1受容体作動薬などの薬の用量・中止の判断は、<strong>すべて処方医の指示に従ってください</strong>。アプリはその判断を行いません。</p>
+
+<h2>6. 変更について</h2>
+<p>内容を変更する場合は、このページの最終更新日を改めます。外部送信を伴う機能（同期・課金・解析）を追加する際は、<strong>追加より前に</strong>このページを更新し、アプリ内でも明示します。</p>
+
+<h2>7. お問い合わせ</h2>
+<p><a href="mailto:ryo53061@gmail.com">ryo53061@gmail.com</a></p>
+
+<h1 style="margin-top:72px;">Backcast 利用規約</h1>
+<p class="meta">最終更新日: 2026年9月6日</p>
+
+<ol>
+  <li><strong>本アプリの目的</strong>: 運動・食事・体組成の目標から、日々の行動計画を逆算して提示することです。</li>
+  <li><strong>推定であること</strong>: 到達日・消費カロリー・必要タンパク質などはすべて推定値であり、個人差（研究上、筋力の伸びは 0〜+250% の幅があります）を含みます。<strong>特定の結果を保証しません。</strong></li>
+  <li><strong>医療行為ではないこと</strong>: 前記「5. 医療上の位置づけ」のとおりです。本アプリの表示を理由に、医師の指示に反する行動を取らないでください。</li>
+  <li><strong>自己責任</strong>: トレーニング中の怪我、極端な食事制限による健康被害について、開発者は責任を負いません。体調に異常を感じた場合は直ちに中止してください。</li>
+  <li><strong>データの消失</strong>: 記録は端末内にのみ保存されます。端末の故障・紛失・アプリの削除によるデータの消失について、開発者は責任を負いません。<strong>定期的な書き出しを推奨します。</strong></li>
+  <li><strong>禁止事項</strong>: 逆コンパイル、再配布、本アプリを用いた第三者への医学的助言の提供。</li>
+  <li><strong>準拠法</strong>: 日本法。</li>
+</ol>
+
+<footer>
+  © 2026 RIVERSHIP / Ryo Kawafune — <a href="../">法的情報の一覧へ</a>
+</footer>
+
+</main>
+</body>
+</html>
